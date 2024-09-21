@@ -1,4 +1,4 @@
-let numero = parseInt(prompt("HOLA!!! \nIntroduce los últimos 4 digitos del número de teléfono de la persona que crees que te envió esto 😉😏: "))
+let numero = parseInt(prompt("Hola! \nIntroduce los últimos 4 dígitos del número de teléfono de la persona que crees que te envió esto 😉😏: "))
 console.log(numero, typeof(numero));
 
 while (numero !== 9401 && numero !== 3005) {
@@ -39,7 +39,7 @@ const renderCard = () => {
 const renderSecretCard = () => {
     const secretCard = document.querySelector("#secret-card")    
     card.innerHTML += `
-        <h1>Tarjeta secreta 😁🥰</h1>
+        <h1>Tarjeta <del>secreta</del> 😁🥰</h1>
 
         <p class="final-line">Ya que llegaste hasta aqui, quiero aprovechar para decirte lo mucho que te amo 🥰❤️🥰❤️🥰❤️ </p>
 
@@ -50,9 +50,11 @@ const renderSecretCard = () => {
 
         <p class="final-line">Aunque la distancia la tenga en contra, no quiero mostrarme ni que me sientas distante o indiferente 🥺</p> 
 
-        <p class="final-line">Gracias por estar en mi vida y ser así como tú eres, increíble, auténtica y muy especial</p>
+        <p class="final-line">Gracias por estar en mi vida y ser así como tú eres, increíble, auténtica y muy especial.</p>
 
-        <h1>❤️❤️❤️¡¡¡TE AMO !!!❤️❤️❤️</h1>
+        <h1>❤️❤️❤️❤️❤️</h1>
+        <h1>¡¡¡TE AMO !!!</h1>
+        <h1>❤️❤️❤️❤️❤️</h1>
 
         <img id="grogu" src="./grogu.gif" alt="grogu" srcset="">
     `

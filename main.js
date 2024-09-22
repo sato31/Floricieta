@@ -1,8 +1,6 @@
 let numero = parseInt(prompt("Hola! \nIntroduce los últimos 4 dígitos del número de teléfono de la persona que crees que te envió esto 😉😏: "))
-console.log(numero, typeof(numero));
 
 while (numero !== 9401 && numero !== 3005) {
-    console.log(numero, typeof(numero));
     numero = parseInt(prompt(`ERROR! \nCómo que ${numero}?? 😑 \nSupongamos que fue un error de tipeo. \nInténtalo de nuevo:`))
 }
 
